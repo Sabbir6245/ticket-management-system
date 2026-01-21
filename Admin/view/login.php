@@ -27,13 +27,16 @@ unset($_SESSION["LoginErr"]);
         }
 
         .login-box {
-            width: 300px;
-            margin: 80px auto;
-            padding: 20px;
-            background: #fff;
-            border-radius: 6px;
-            border: 1px solid #ccc;
-        }
+    width: 300px;
+    margin: 210px auto;
+    padding: 20px;
+
+    background: rgba(255, 255, 255, 0.5); 
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.5);
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
 
         h2 {
             text-align: center;
@@ -49,12 +52,14 @@ unset($_SESSION["LoginErr"]);
         }
 
         input[type="text"],
-        input[type="password"] {
-            width: 95%;
-            padding: 6px;
-            border: 1px solid #aaa;
-            border-radius: 4px;
-        }
+input[type="password"] {
+    width: 95%;
+    padding: 7px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background: rgba(255,255,255,0.85);
+}
+
 
         input[type="submit"] {
             padding: 8px 16px;
@@ -73,7 +78,7 @@ unset($_SESSION["LoginErr"]);
             color: red;
             font-size: 0.85em;
         }
-      body { background: url("../uploads/bglogin.png") no-repeat center center fixed; background-size: cover; }
+      body { background: url("/myproj/uploads/bglogin.png") no-repeat center center fixed; background-size: cover; }
 
     </style>
 </head>
